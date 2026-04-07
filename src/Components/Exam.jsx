@@ -319,7 +319,7 @@ const Exam = () => {
   const [currentQ, setCurrentQ] = useState(0);
   const [submitted, setSubmitted] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(60 * 60);
+  const [timeLeft, setTimeLeft] = useState(60 * 50);
 
   const [tabSwitchCount, setTabSwitchCount] = useState(0);
   const [warning, setWarning] = useState("");
